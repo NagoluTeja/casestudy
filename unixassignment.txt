@@ -1,0 +1,27 @@
+1   Create folder 'Test' in your home director-> mkdir Test
+
+2 . Create below files​ employeelist​ skillset​         -->touch employeelist skillset
+
+3 Create folder Test2 in home directory​ --> touch Test2
+
+4 create  hard link for skillset file ​--> ln skillset hardlink
+
+5 create symbolink for skillset file --> ​ln -s skillset symboliclink
+
+6 delete skillset file and check if hardlink and symbolic link file exists​--> rm skillset #File is exist in hardlink and symbolic link  but symboliclink got destroyed
+
+7 diff between symboliclink and hardlink --> Hardlink:- is copy of selected file  It can access data available in the original file.
+                                                      if that slected file is deleted but the hardlink to that original file contain data.
+
+                                          symbolilink:- it does not acces the data in original file if that original file is deleted 
+                                                    the symbolic link contained file does not exist. symboloic link will destroy
+8 Provide read and write permission to 'user2' group​ -->sudo chown user2 employeelist ; chmod 762 employelist
+
+9 Grant write permission for others and test it ​ -->chmod o+w  employeelist
+
+10 Change the group of employeelist file to 'user3'​ -->
+
+11 Change ownership of the file to user5 and test​ --> chown user5 employeelist
+
+12 check how many employees are there --> wc -l employeelist
+

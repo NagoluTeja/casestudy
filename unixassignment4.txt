@@ -1,0 +1,25 @@
+file name is File1
+
+1 Lines containing A​  --> grep [A] File1
+
+2 lines containing The at the beginning​  -->grep ^The File1
+
+3 lines  ending with  ​ -->grep ..$ File1
+
+4  lines with a,b or c as the second letter​ -->grep ^.[abc] File1   
+
+5 lines which contain def , deef or deeeef  -->
+
+6 lines not having numbers at the beginning ​ -->grep [0-9]$ File1
+
+7 empty lines​  --> find . -empty | sort
+ 
+8 list the password file details of user1 - user10  --> sudo change -l | sort 
+
+9 list only directories​   -->ls -l | grep ^d 
+
+10 list out the C programs in the current directory
+ which are using math library file (hint:  math library file - math.h)     -->   ls -l |grep math.h
+
+                  
+                       
