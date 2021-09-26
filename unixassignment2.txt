@@ -15,10 +15,10 @@
 
 7  Read File1,File2,File3… File5 . Observe the output  -->while read File1 File2 File3 File4 File5 
 
-8 Redirect the errors of the above command to “errorlog”​ -->cp File4 File5 2> errorlog
+8 Redirect the errors of the above command to “errorlog”​ -->cat File4 File5 2> errorlog
 
 
 9 Concatenate name File1 to 5 and store it in File 10. 
-if any errors, log them in the same file ​                --> cp File1 File2 File3 File4 File5
+if any errors, log them in the same file ​                --> cat File1 File2 File3 File4 File5 > File10
 
 10 Copy File1 to File6. Add the errors to “errorlog”​ -->  cp File1 File6
