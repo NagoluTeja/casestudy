@@ -15,7 +15,7 @@
 
                                           symbolilink:- it does not acces the data in original file if that original file is deleted 
                                                     the symbolic link contained file does not exist. symboloic link will destroy
-8 Provide read and write permission to 'user2' group​ -->sudo chown user2 employeelist ; chmod 762 employelist
+8 Provide read and write permission to 'user2' group​ --> chgrp -v user2 employeelist ; chmod 762 employelist
 
 9 Grant write permission for others and test it ​ -->chmod o+w  employeelist
 
