@@ -19,9 +19,9 @@
 
 9 Grant write permission for others and test it ​ -->chmod o+w  employeelist
 
-10 Change the group of employeelist file to 'user3'​ --> chgrp -c user2 employeelist
+10 Change the group of employeelist file to 'user3'​ --> chgrp -v user2 employeelist
 
-11 Change ownership of the file to user5 and test​ --> chown user5 employeelist
+11 Change ownership of the file to user5 and test​ --> chown -c user5 employeelist
 
 12 check how many employees are there --> wc  employee
 
