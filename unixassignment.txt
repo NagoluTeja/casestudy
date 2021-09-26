@@ -23,5 +23,5 @@
 
 11 Change ownership of the file to user5 and test​ --> chown user5 employeelist
 
-12 check how many employees are there --> wc -l employeelist
+12 check how many employees are there --> wc  employee
 
