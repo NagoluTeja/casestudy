@@ -8,13 +8,13 @@ file name is File1
 
 4  lines with a,b or c as the second letter​ -->grep ^.[abc] File1   
 
-5 lines which contain def , deef or deeeef  -->
+5 lines which contain def , deef or deeeef  --> grep ^deeeef File1
 
 6 lines not having numbers at the beginning ​ -->grep [0-9]$ File1
 
-7 empty lines​  --> find . -empty | sort
+7 empty lines​  --> grep -c "^$" File1
  
-8 list the password file details of user1 - user10  --> sudo change -l | sort 
+8 list the password file details of user1 - user10  -->
 
 9 list only directories​   -->ls -l | grep ^d 
 
