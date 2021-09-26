@@ -1,6 +1,6 @@
  1 Convert all capital letters into small letters in file​   --> tr [:upper:] [:lower:] < changedfile
 
-2 Remove all occurrences of numbers in file​ -->   tr -d '3'
+2 Remove all occurrences of numbers in file​ -->   tr -d '1-9'
 
 3 remove all occurrences of spaces in a file​ --> tr -d ' ' 
 
