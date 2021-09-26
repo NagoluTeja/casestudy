@@ -2,7 +2,7 @@
  
 1 Sort the file based on the filename descending order (last field)​  --> sort -r File10
 
-2 Sort the file based only on the inode count​ --> ls -i | sort
+2 Sort the file based only on the inode count​ --> ls -i | sort -n
 
 3 Sort the file based on the user name and group name in reverse order​ 
 
